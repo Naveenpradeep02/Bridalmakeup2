@@ -39,6 +39,9 @@ h3 {
 a {
   text-decoration: none;
 }
+body {
+  overflow-x: hidden;
+}
 /*================================ navigation bar======================================== */
 header {
   display: flex;
@@ -558,6 +561,7 @@ nav {
 /* ==================================================================================================================== */
 @media (max-width: 575px) {
   /* navigation */
+
   header {
     flex-direction: column;
     padding: 30px;
@@ -586,6 +590,72 @@ nav {
   }
   .addclose {
     display: block;
+  }
+  .service-cards {
+    display: block;
+  }
+  .service-detials {
+    grid-template-columns: 1fr;
+  }
+  .service-list:not(:first-child, :nth-child(5)) {
+    border: none;
+    padding-left: 0px;
+  }
+  .service-list {
+    padding-left: 0px;
+  }
+  .services-card-img {
+    max-width: 575px;
+    overflow: hidden;
+  }
+  .service-card {
+    max-width: 575px;
+    overflow: hidden;
+  }
+  .services-card-img img {
+    width: 400px;
+  }
+  .cta-section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .cta-text h2 {
+    text-align: center;
+  }
+  .cta-btn {
+    margin: 30px 0px;
+  }
+  #about {
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: 100%;
+  }
+  .about-img img {
+    height: 200px;
+  }
+  .testimonials {
+    height: auto;
+  }
+  .reviwe {
+    grid-template-columns: 1fr;
+  }
+  .people-reviwe:not(:last-child) {
+    border: none;
+  }
+  .people-reviwe {
+    padding: 0px;
+  }
+  .image-galery {
+    grid-template-columns: 1fr;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .overlay-img {
+    display: none;
   }
   /* navigation */
 }
@@ -619,12 +689,132 @@ nav {
   .addclose {
     display: block;
   }
+  .service-cards {
+    display: block;
+  }
+  .service-detials {
+    grid-template-columns: 1fr;
+  }
+  .service-list:not(:first-child, :nth-child(5)) {
+    border: none;
+    padding-left: 0px;
+  }
+  .service-list {
+    padding-left: 0px;
+  }
+  .services-card-img {
+    max-width: 575px;
+    overflow: hidden;
+  }
+  .service-card {
+    max-width: 575px;
+    overflow: hidden;
+  }
+  .services-card-img img {
+    width: 400px;
+  }
+  .cta-section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .cta-text h2 {
+    text-align: center;
+  }
+  .cta-btn {
+    margin: 30px 0px;
+  }
+  #about {
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: 100%;
+  }
+  .about-img img {
+    height: 200px;
+  }
+  .testimonials {
+    height: auto;
+  }
+  .reviwe {
+    grid-template-columns: 1fr;
+  }
+  .people-reviwe:not(:last-child) {
+    border: none;
+  }
+  .people-reviwe {
+    padding: 0px;
+  }
+  .image-galery {
+    grid-template-columns: 1fr;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .overlay-img {
+    display: none;
+  }
   /* navigation */
 }
 @media (min-width: 768px) and (max-width: 991px) {
   header {
     padding: 20px;
   }
+  .service-cards {
+    display: block;
+  }
+  .service-detials {
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-list:not(:first-child, :nth-child(5)) {
+    border: none;
+    padding-left: 0px;
+  }
+  .service-list {
+    padding-left: 0px;
+  }
+
+  .cta-section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .cta-text h2 {
+    text-align: center;
+  }
+  .cta-btn {
+    margin: 30px 0px;
+  }
+  #about {
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: 100%;
+  }
+  .testimonials {
+    height: auto;
+  }
+  .reviwe {
+    grid-template-columns: 1fr 1fr;
+  }
+  .people-reviwe:not(:last-child) {
+    border: none;
+  }
+
+  .image-galery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .overlay-img {
+    display: none;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .service-cards {
+    display: block;
+  }
 }
