@@ -557,6 +557,58 @@ nav {
 .copy-text a {
   color: var(--primary-color);
 }
+.portfolio-container {
+  width: 80%;
+  margin: 30px auto;
+  border: 2px solid var(--primary-color);
+  padding: 40px;
+}
+.portfolio-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.portfolio-container ul li {
+  height: 25vh;
+  flex-grow: 1;
+}
+.portfolio-container ul li img {
+  min-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.portfolio-container h3 {
+  font-size: 42px;
+  font-family: var(--h2-font-family);
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+.portfolio-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.portfolio-title img {
+  width: 100px;
+}
+.arrow-back {
+  position: fixed;
+  top: 40px;
+  left: 80px;
+  color: var(--primary-color);
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Footer(END) */
 /* ==================================================================================================================== */
 @media (max-width: 575px) {
