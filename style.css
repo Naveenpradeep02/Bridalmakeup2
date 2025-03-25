@@ -8,7 +8,7 @@
   --serif-font-family: serif;
   /* color */
   --primary-color: #c27f13;
-  --secondary-color: #3d3d3d;
+  --secondary-color: #0d0503;
   --light-color: #ffffff;
   --sand-color: #fce9de;
 }
@@ -48,7 +48,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary-color);
-  padding: 20px 150px;
+  padding: 0px 150px;
   width: 100%;
   position: sticky;
   top: 0;
@@ -59,7 +59,9 @@ header {
   color: var(--primary-color);
   font-family: var(--h2-font-family);
 }
-
+.logo img {
+  width: 70px;
+}
 nav {
   display: flex;
   align-items: center;
@@ -126,18 +128,18 @@ nav {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(./imgs/1.jpg);
-  filter: grayscale(30%);
+  background: url(./imgs/img1.jpg);
+  filter: grayscale(80%);
   background-size: cover;
   background-position: center;
 }
 .slider-item:nth-child(2)::before {
-  background: url(./imgs/2.jpg);
+  background: url(./imgs/img2.jpg);
   background-size: cover;
   background-position: center;
 }
 .slider-item:nth-child(3)::before {
-  background: url(./imgs/3.jpg);
+  background: url(./imgs/img3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -562,6 +564,7 @@ nav {
   margin: 30px auto;
   border: 2px solid var(--primary-color);
   padding: 40px;
+  height: 100%;
 }
 .portfolio-container ul {
   margin: 0;
@@ -572,12 +575,12 @@ nav {
   gap: 10px;
 }
 .portfolio-container ul li {
-  height: 25vh;
+  height: 100%;
   flex-grow: 1;
 }
 .portfolio-container ul li img {
   min-width: 100%;
-  max-height: 100%;
+  min-height: auto;
   display: block;
   object-fit: cover;
 }
@@ -596,6 +599,7 @@ nav {
 .portfolio-title img {
   width: 100px;
 }
+
 .arrow-back {
   position: fixed;
   top: 40px;
@@ -609,6 +613,14 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.logo .logo-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo .logo-foot img {
+  width: 120px;
+}
 /* Footer(END) */
 /* ==================================================================================================================== */
 @media (max-width: 575px) {
@@ -616,7 +628,10 @@ nav {
 
   header {
     flex-direction: column;
-    padding: 30px;
+    padding: 0px 30px;
+  }
+  .logo img {
+    width: 70px;
   }
   .menu-list {
     display: block;
@@ -632,6 +647,7 @@ nav {
     position: absolute;
     display: block;
     right: 30px;
+    top: 20px;
     color: var(--light-color);
   }
   .show-menu {
