@@ -134,7 +134,7 @@ nav {
   background-position: center;
 }
 .slider-item:nth-child(2)::before {
-  background: url(./imgs/img2.jpg);
+  background: url(./imgs/s-1.jpg);
   background-size: cover;
   background-position: center;
 }
