@@ -128,18 +128,18 @@ nav {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(./imgs/img1.jpg);
+  background: url(./imgs/slide1.jpg);
   filter: grayscale(0%);
   background-size: cover;
   background-position: center;
 }
 .slider-item:nth-child(2)::before {
-  background: url(./imgs/s-1.jpg);
+  background: url(./imgs/slide-2.jpg);
   background-size: cover;
   background-position: center;
 }
 .slider-item:nth-child(3)::before {
-  background: url(./imgs/img3.jpg);
+  background: url(./imgs/slide-4.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -576,7 +576,7 @@ nav {
   flex-grow: 1;
 }
 .portfolio-container ul li img {
-  min-width: 100%;
+  width: 350px;
   min-height: auto;
   display: block;
   object-fit: cover;
