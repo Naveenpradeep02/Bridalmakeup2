@@ -154,7 +154,7 @@
       </div>
     </section>
     <div class="service-detials">
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'bridal')">
         <h2>Bridal makeup</h2>
         <p>
           It's your day to glow! Our bridal makeup will make you look stunning
@@ -162,14 +162,14 @@
           style.
         </p>
       </div>
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'Baby')">
         <h2>Baby shower makeup</h2>
         <p>
           Glow with joy and elegance on your special day with radiant, subtle
           makeup. Let your happiness shine through with our gentle touch.
         </p>
       </div>
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'Prewedding')">
         <h2>Prewedding photo shoot</h2>
         <p>
           Capture the magic of your love story with our stunning pre-wedding
@@ -177,14 +177,14 @@
           bond before your big day.
         </p>
       </div>
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'Model')">
         <h2>Model photo shoot</h2>
         <p>
           Look flawless under every light with our camera-ready makeup designed
           for photoshoots. Let your personality shine through every frame.
         </p>
       </div>
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'Puberty')">
         <h2>Puberty makeup</h2>
         <p>
           Celebrate this milestone with soft, age-appropriate makeup that
@@ -192,7 +192,7 @@
           for this special occasion.
         </p>
       </div>
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'Groom')">
         <h2>Groom makeup</h2>
         <p>
           Fresh, natural, and confident—because grooms deserve to look their
@@ -200,15 +200,15 @@
           it.
         </p>
       </div>
-      <div class="service-list">
-        <h2>saree draping</h2>
+      <div class="service-list" onclick="saveCategory(event, 'saree')">
+        <h2>Saree draping</h2>
         <p>
           Elevate your style with perfectly draped sarees that bring out
           elegance and grace. Be it traditional or modern, we master every
           drape.
         </p>
       </div>
-      <div class="service-list">
+      <div class="service-list" onclick="saveCategory(event, 'hair')">
         <h2>Hairstyling</h2>
         <p>
           From chic waves to traditional buns, we craft hairstyles that turn
@@ -317,49 +317,63 @@
       </div>
       <div class="image-galery">
         <div class="port-img">
-          <img src="./i2/Intersect-6.png" alt="" />
+          <a href="./subport.html" onclick="saveCategory(event, 'hair')">
+            <img src="./i2/Intersect-6.png" alt="" />
+          </a>
+        </div>
+        <div class="port-img">
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./imgs/portfolio/27.jpg" alt="" />
+          </a>
+        </div>
+        <div class="port-img">
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./i2/Intersect-1.png" alt=""
+          /></a>
+
           <a href="./portfolio.html" class="hover-text"
             >Saranya hair and Makeup</a
           >
         </div>
         <div class="port-img">
-          <img src="./imgs/portfolio/27.jpg" alt="" />
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./i2/Intersect-3.png" alt=""
+          /></a>
           <a href="./portfolio.html" class="hover-text"
             >Saranya hair and Makeup</a
           >
         </div>
         <div class="port-img">
-          <img src="./i2/Intersect-1.png" alt="" />
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./i2/Intersect-2.png" alt=""
+          /></a>
           <a href="./portfolio.html" class="hover-text"
             >Saranya hair and Makeup</a
           >
         </div>
         <div class="port-img">
-          <img src="./i2/Intersect-3.png" alt="" />
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./i2/Intersect-5.png" alt=""
+          /></a>
+
           <a href="./portfolio.html" class="hover-text"
             >Saranya hair and Makeup</a
           >
         </div>
         <div class="port-img">
-          <img src="./i2/Intersect-2.png" alt="" />
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./i2/Intersect-7.png" alt=""
+          /></a>
+
           <a href="./portfolio.html" class="hover-text"
             >Saranya hair and Makeup</a
           >
         </div>
         <div class="port-img">
-          <img src="./i2/Intersect-5.png" alt="" />
-          <a href="./portfolio.html" class="hover-text"
-            >Saranya hair and Makeup</a
-          >
-        </div>
-        <div class="port-img">
-          <img src="./i2/Intersect-7.png" alt="" />
-          <a href="./portfolio.html" class="hover-text"
-            >Saranya hair and Makeup</a
-          >
-        </div>
-        <div class="port-img">
-          <img src="./i2/Intersect.png" alt="" />
+          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+            <img src="./i2/Intersect.png" alt=""
+          /></a>
+
           <a href="./portfolio.html" class="hover-text"
             >Saranya hair and Makeup</a
           >
@@ -378,7 +392,10 @@
             <h2>Our Services</h2>
             <ul>
               <li>
-                <a href="#">
+                <a
+                  href="./subport.html"
+                  onclick="saveCategory(event, 'bridal')"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -403,7 +420,7 @@
                 >
               </li>
               <li>
-                <a href="#">
+                <a href="./subport.html" onclick="saveCategory(event, 'Baby')">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -428,7 +445,10 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="./subport.html"
+                  onclick="saveCategory(event, 'Prewedding')"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -453,7 +473,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="./subport.html" onclick="saveCategory(event, 'Model')">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -478,7 +498,10 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="./subport.html"
+                  onclick="saveCategory(event, 'Puberty')"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -503,7 +526,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="./subport.html" onclick="saveCategory(event, 'groom')">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -528,7 +551,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/subport.html" onclick="saveCategory(event, 'bridal')">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -553,7 +576,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="./image.js" onclick="saveCategory(event, 'hair')">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -574,8 +597,33 @@
                     <path d="M4 17v2" />
                     <path d="M5 18H3" />
                   </svg>
-                  Hairstyling and saree draping</a
-                >
+                  Hairstyling and
+                </a>
+              </li>
+              <li>
+                <a href="./image.js" onclick="saveCategory(event, 'saree')">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-sparkles"
+                  >
+                    <path
+                      d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+                    />
+                    <path d="M20 3v4" />
+                    <path d="M22 5h-4" />
+                    <path d="M4 17v2" />
+                    <path d="M5 18H3" />
+                  </svg>
+                  saree draping
+                </a>
               </li>
             </ul>
           </div>
@@ -651,7 +699,7 @@
             </div>
           </div>
           <div class="footer-address">
-            <h2>Our Services</h2>
+            <h2>Menu</h2>
             <ul>
               <li>
                 <a href="#">
@@ -675,11 +723,11 @@
                     <path d="M4 17v2" />
                     <path d="M5 18H3" />
                   </svg>
-                  Bridal makeup</a
+                  Home</a
                 >
               </li>
               <li>
-                <a href="#">
+                <a href="#about">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -700,11 +748,11 @@
                     <path d="M4 17v2" />
                     <path d="M5 18H3" />
                   </svg>
-                  Baby shower makeup
+                  About
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#service">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -725,11 +773,11 @@
                     <path d="M4 17v2" />
                     <path d="M5 18H3" />
                   </svg>
-                  Prewedding photo shoot
+                  Services
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="./portfolio.html">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -750,11 +798,11 @@
                     <path d="M4 17v2" />
                     <path d="M5 18H3" />
                   </svg>
-                  Model photo shoot
+                  Portfolio
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#contact">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -775,83 +823,8 @@
                     <path d="M4 17v2" />
                     <path d="M5 18H3" />
                   </svg>
-                  Puberty makeup
+                  Contact
                 </a>
-              </li>
-              <li>
-                <a href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-sparkles"
-                  >
-                    <path
-                      d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
-                    />
-                    <path d="M20 3v4" />
-                    <path d="M22 5h-4" />
-                    <path d="M4 17v2" />
-                    <path d="M5 18H3" />
-                  </svg>
-                  Groom makeup
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-sparkles"
-                  >
-                    <path
-                      d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
-                    />
-                    <path d="M20 3v4" />
-                    <path d="M22 5h-4" />
-                    <path d="M4 17v2" />
-                    <path d="M5 18H3" />
-                  </svg>
-                  Brides maid look
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-sparkles"
-                  >
-                    <path
-                      d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
-                    />
-                    <path d="M20 3v4" />
-                    <path d="M22 5h-4" />
-                    <path d="M4 17v2" />
-                    <path d="M5 18H3" />
-                  </svg>
-                  Hairstyling and saree draping</a
-                >
               </li>
             </ul>
           </div>
@@ -888,5 +861,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- js -->
     <script src="./script.js"></script>
+    <script>
+      function saveCategory(event, category) {
+        event.preventDefault(); // Prevent immediate navigation
+        localStorage.setItem("selectedCategory", category); // Store category
+        window.location.href = "./subport.html"; // Navigate after storing
+      }
+    </script>
+    <script src="./image.js"></script>
   </body>
 </html>

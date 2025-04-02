@@ -245,6 +245,7 @@ nav {
 }
 .service-list {
   padding-left: 40px;
+  cursor: pointer;
 }
 .service-list:not(:first-child, :nth-child(5)) {
   border-left: 2px solid var(--primary-color);
