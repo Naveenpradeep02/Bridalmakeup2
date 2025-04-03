@@ -336,7 +336,7 @@
           >
         </div>
         <div class="port-img">
-          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+          <a href="./subport.html" onclick="saveCategory(event, 'Baby')">
             <img src="./i2/Intersect-3.png" alt=""
           /></a>
           <a href="./portfolio.html" class="hover-text"
@@ -361,7 +361,7 @@
           >
         </div>
         <div class="port-img">
-          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+          <a href="./subport.html" onclick="saveCategory(event, 'Prewedding')">
             <img src="./i2/Intersect-7.png" alt=""
           /></a>
 
@@ -863,9 +863,9 @@
     <script src="./script.js"></script>
     <script>
       function saveCategory(event, category) {
-        event.preventDefault(); // Prevent immediate navigation
-        localStorage.setItem("selectedCategory", category); // Store category
-        window.location.href = "./subport.html"; // Navigate after storing
+        event.preventDefault();
+        localStorage.setItem("selectedCategory", category);
+        window.location.href = "./subport.html";
       }
     </script>
     <script src="./image.js"></script>

@@ -133,12 +133,12 @@ nav {
   background-position: center;
 }
 .slider-item:nth-child(2)::before {
-  background: url(./imgs/s2.jpg);
+  background: url(./imgs/bridal-slide.jpg);
   background-size: cover;
   background-position: center;
 }
 .slider-item:nth-child(3)::before {
-  background: url(./imgs/img1.jpg);
+  background: url(./imgs/slide-front-2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -572,8 +572,16 @@ nav {
   gap: 10px;
 }
 .portfolio-container ul li {
-  height: 100%;
+  height: 50vh;
   flex-grow: 1;
+}
+.imgage-container {
+  columns: 3 250px;
+  gap: 15px;
+}
+.imgage-container img {
+  margin-bottom: 10px;
+  width: 100%;
 }
 .portfolio-container ul li img {
   width: 350px;
