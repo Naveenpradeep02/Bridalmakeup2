@@ -21,9 +21,61 @@
         <ul class="menu-list">
           <li><a onclick="handleClose()" href="#home">Home</a></li>
           <li><a onclick="handleClose()" href="#about">About Us</a></li>
-          <li><a onclick="handleClose()" href="#service">Services</a></li>
           <li>
-            <a onclick="handleClose()" href="./portfolio.html">Portfolio</a>
+            <a onclick="handleClose()" href="#service">Services</a>
+            <ul class="sub-menus">
+              <li>
+                <a href="./subport.html" onclick="saveCategory(event, 'bridal')"
+                  >Bridal makeup</a
+                >
+              </li>
+              <li>
+                <a href="./subport.html" onclick="saveCategory(event, 'Baby')"
+                  >Baby shower makeup</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./subport.html"
+                  onclick="saveCategory(event, 'Prewedding')"
+                  >Pre-wedding photo shoot</a
+                >
+              </li>
+              <li>
+                <a href="./subport.html" onclick="saveCategory(event, 'Model')"
+                  >Model photo shoot</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./portfolio.html"
+                  onclick="saveCategory(event, 'bridal')"
+                  >Puberty makeup</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./portfolio.html"
+                  onclick="saveCategory(event, 'bridal')"
+                  >Groom makeup</a
+                >
+              </li>
+              <li>
+                <a href="./subport.html" onclick="saveCategory(event, 'hair')"
+                  >Hairstyling and</a
+                >
+              </li>
+              <li>
+                <a href="./subport.html" onclick="saveCategory(event, 'saree')"
+                  >saree draping</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./subport.html" onclick="saveCategory(event, 'portfolio')"
+              >Portfolio</a
+            >
           </li>
           <li><a onclick="handleClose()" href="#contact">Contact</a></li>
         </ul>
@@ -331,7 +383,10 @@
             <img src="./i2/Intersect-1.png" alt=""
           /></a>
 
-          <a href="./portfolio.html" class="hover-text"
+          <a
+            href="./subport.html"
+            onclick="saveCategory(event, 'portfolio')"
+            class="hover-text"
             >Saranya hair and Makeup</a
           >
         </div>
@@ -352,7 +407,7 @@
           >
         </div>
         <div class="port-img">
-          <a href="./subport.html" onclick="saveCategory(event, 'bridal')">
+          <a href="./subport.html" onclick="saveCategory(event, 'Model')">
             <img src="./i2/Intersect-5.png" alt=""
           /></a>
 
