@@ -2,6 +2,7 @@ const imageData = [
   {
     hair: {
       serviceName: "Hair Style",
+      para: "From chic waves to traditional buns, we craft hairstyles that turn heads. Be it a wedding or a party, your hair will speak elegance.",
       image: [
         "./imgs/hair/hair (1).jpg",
         "./imgs/hair/hair (2).jpg",
@@ -19,6 +20,7 @@ const imageData = [
   {
     bridal: {
       serviceName: "Bridal",
+      para: "It's your day to glow! Our bridal makeup will make you look stunning in every click and moment. Feel confident walking down the aisle in style.",
       image: [
         "./imgs/bridal/bridal (1).jpg",
         "./imgs/bridal/bridal (2).jpg",
@@ -46,6 +48,7 @@ const imageData = [
   {
     saree: {
       serviceName: "saree draping",
+      para: "Elevate your style with perfectly draped sarees that bring out elegance and grace. Be it traditional or modern, we master every drape.",
       image: [
         "./imgs/sree/saree (1).jpg",
         "./imgs/sree/saree (6).jpg",
@@ -69,6 +72,7 @@ const imageData = [
     },
     Model: {
       serviceName: "Model photo shoot",
+      para: "Look flawless under every light with our camera-ready makeup designed for photoshoots. Let your personality shine through every frame.",
       image: [
         "./imgs/model/model (2).jpg",
         "./imgs/model/model (3).jpg",
@@ -79,6 +83,7 @@ const imageData = [
     },
     Prewedding: {
       serviceName: "Prewedding photo shoot",
+      para: "Capture the magic of your love story with our stunning pre-wedding photography. Let us create timeless memories that reflect your unique bond before your big day.",
       image: [
         "./imgs/preWed/prewed (1).jpg",
         "./imgs/preWed/prewed (8).jpg",
@@ -94,6 +99,7 @@ const imageData = [
     },
     Baby: {
       serviceName: "Baby shower makeup",
+      para: "Glow with joy and elegance on your special day with radiant, subtle makeup. Let your happiness shine through with our gentle touch.",
       image: [
         "./imgs/baby/baby (1).jpg",
         "./imgs/baby/baby (2).jpg",
@@ -110,6 +116,7 @@ const imageData = [
     },
     portfolio: {
       serviceName: "",
+      para: "",
       image: [
         "./imgs/hair/hair (1).jpg",
         "./imgs/hair/hair (2).jpg",
@@ -232,7 +239,10 @@ const setImage = (category) => {
   container.innerHTML = `
       <div class="portfolio-title">
         <img src="./imgs/rose.png" alt="Rose Icon" />
+        <div  class="title-div" >
         <h3 class="profile-title">${imagedata.serviceName}</h3>
+        <p class="para-text">${imagedata.para}</P>
+        </div>
         <img src="./imgs/rose.png" alt="Rose Icon" />
       </div>
       <div class="imgage-container">
