@@ -241,10 +241,12 @@ const setImage = (category) => {
         <img src="./imgs/rose.png" alt="Rose Icon" />
         <div  class="title-div" >
         <h3 class="profile-title">${imagedata.serviceName}</h3>
-        <p class="para-text">${imagedata.para}</P>
+       
         </div>
+
         <img src="./imgs/rose.png" alt="Rose Icon" />
       </div>
+       <p class="para-text">${imagedata.para}</P>
       <div class="imgage-container">
         ${imagesMarkup}
       </div>
