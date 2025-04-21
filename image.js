@@ -50,13 +50,9 @@ const imageData = [
       serviceName: "saree draping",
       para: "Elevate your style with perfectly draped sarees that bring out elegance and grace. Be it traditional or modern, we master every drape.",
       image: [
-        "./imgs/sree/saree (1).jpg",
         "./imgs/sree/saree (6).jpg",
         "./imgs/sree/saree (7).jpg",
         "./imgs/sree/saree (8).jpg",
-        "./imgs/sree/saree (9).jpg",
-        "./imgs/sree/saree (10).jpg",
-        "./imgs/sree/saree (11).jpg",
         "./imgs/sree/saree (12).jpg",
         "./imgs/sree/saree (13).jpg",
         "./imgs/sree/saree (14).jpg",
